@@ -1,0 +1,10 @@
+development: &defaults
+  app_id: 342515262448265
+  client_secret: a765b42bdd14cdc5fba76563547e6a15 
+  perms: offline_access,manage_pages
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

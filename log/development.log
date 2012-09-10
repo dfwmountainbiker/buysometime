@@ -1,0 +1,1328 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 08 16:01:50 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 08 17:02:46 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+Rendered home/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 08 17:03:40 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+Rendered home/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 08 17:05:53 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+Rendered home/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Feb 08 17:05:59 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mSQL (137.1ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (349.1ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (18.4ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (304.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (1.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.6ms)[0m  SHOW TABLES
+  [1m[36mSQL (13.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateClients (20120208222907)
+  [1m[35mSQL (116.5ms)[0m  CREATE TABLE `clients` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `host` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (43.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120208222907')[0m
+Migrating to DeviseCreateUsers (20120208223256)
+  [1m[35mSQL (111.5ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(128) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `users`[0m
+  [1m[35mSQL (199.7ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)
+  [1m[36mSQL (1.0ms)[0m  [1mSHOW KEYS FROM `users`[0m
+  [1m[35mSQL (244.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)
+  [1m[36mSQL (41.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120208223256')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `clients`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `clients`
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 06:45:41 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (1.0ms)
+Rendered home/index.html.erb within layouts/application (109.9ms)
+Completed 200 OK in 157ms (Views: 155.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 06:45:47 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (1.9ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 65ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 06:45:50 -0600 2012
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (2.0ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/registrations/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 114ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at Thu Feb 09 06:46:03 -0600 2012
+  Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"commit"=>"Sign up", "authenticity_token"=>"u0jIdugkAr0iMoLFruArlVCA7+boeKQKIDvkehiT0Cw=", "utf8"=>"✓", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"christopherbond@gmail.com"}}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (53.6ms)[0m  SELECT 1 FROM `users` WHERE (`users`.`email` = BINARY 'christopherbond@gmail.com') LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (2.2ms)[0m  describe `users`
+  [1m[36mAREL (20.8ms)[0m  [1mINSERT INTO `users` (`current_sign_in_ip`, `remember_created_at`, `encrypted_password`, `reset_password_token`, `last_sign_in_at`, `last_sign_in_ip`, `reset_password_sent_at`, `current_sign_in_at`, `created_at`, `sign_in_count`, `email`, `updated_at`) VALUES (NULL, NULL, '$2a$10$kEqeSxriFYovnN1HIMe8JO6BV.czIP7qCTCwfox1qVHgPr64Ap58y', NULL, NULL, NULL, NULL, NULL, '2012-02-09 12:46:03', 0, 'christopherbond@gmail.com', '2012-02-09 12:46:03')[0m
+  [1m[35mSQL (43.5ms)[0m  COMMIT
+  [1m[36mSQL (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (20.4ms)[0m  UPDATE `users` SET `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2012-02-09 12:46:03', `last_sign_in_ip` = '127.0.0.1', `current_sign_in_at` = '2012-02-09 12:46:03', `sign_in_count` = 1, `updated_at` = '2012-02-09 12:46:03' WHERE `users`.`id` = 1
+  [1m[36mSQL (40.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 447ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 06:46:03 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 06:46:11 -0600 2012
+
+ActionController::RoutingError (No route matches "/users/sign_out"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 06:50:17 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 80ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 06:50:17 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 07:35:28 -0600 2012
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 07:39:15 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.7ms)
+Rendered home/index.html.erb within layouts/application (118.6ms)
+Completed 200 OK in 147ms (Views: 146.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 07:39:20 -0600 2012
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 07:40:51 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 07:40:57 -0600 2012
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 07:42:20 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+Rendered home/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 07:42:30 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQA0q6h-dnGRNJ_xUxhYQrZ--BUltcNDxKODocEWEg7W-iyg-iQqpzjJkEpDahaNd9zunTwiXEjm_SxmZlzlY8RE1vWmE8YLC0o8Dt0a2JiATUQluGtDCTr84JLj0Q2BMI2UqedTAVes-uL2x_UGQmnUWfCW__XPD0QmTIjPbuu8CMVqaenpA2NyRjgBAynGlbA" for 127.0.0.1 at Thu Feb 09 07:42:43 -0600 2012
+
+ActionController::RoutingError (No route matches "/auth/facebook/callback"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mSQL (33.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.6ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateClients (20120208222907)
+Migrating to DeviseCreateUsers (20120208223256)
+Migrating to AddClientToUsers (20120209142803)
+  [1m[35mSQL (335.1ms)[0m  ALTER TABLE `users` ADD `client_id` int(11)
+  [1m[36mSQL (43.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120209142803')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `clients`[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW KEYS FROM `clients`
+  [1m[36mSQL (0.9ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateClients (20120208222907)
+Migrating to DeviseCreateUsers (20120208223256)
+Migrating to AddClientToUsers (20120209142803)
+Migrating to CreateAuthentications (20120209143157)
+  [1m[35mSQL (280.9ms)[0m  CREATE TABLE `authentications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `client_id` int(11), `provider` varchar(255), `uid` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (41.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120209143157')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `authentications`
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `clients`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `clients`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:02:09 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQATNDZAYfBgkTbisCtNZKPsvYzfC3Co9gksD7zHKMm_ntyow8pzApCQjdMf23jba9DPsqBMQRayKRPt6pDOCcXi5qbHEGaAB4nYyJ5QXv4nhlny3KTfs6eZ-8o4vJNBMfBamhFRrISVbLcvH9OhdrsmEzuxXYDZqMHQqcnUvrfkN-L8KQfbkjOzMONAEuZ3_U8" for 127.0.0.1 at Thu Feb 09 09:02:13 -0600 2012
+
+ActionController::RoutingError (uninitialized constant AuthenticationsController):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 09:03:57 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+Rendered home/index.html.erb within layouts/application (81.7ms)
+Completed 200 OK in 87ms (Views: 86.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:04:02 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBYgRuG04vN6rqBsd5Sc9m8uvTIuGrDtbg3uJmNm_33iOGPnydtj_lSd2JJrQ48eCDntXk4KCAD42KdZIeYAMRbvd9XtXM9ufhYh0SqJIXKSgjpC-5vpatJhOr4XZV27zfz5et9tJPNz8hv_hlKnDxDXUJ4nbpCZFZLXoExQqZvUeovx_n9spbH98mBSWfZQ98" for 127.0.0.1 at Thu Feb 09 09:04:02 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBYgRuG04vN6rqBsd5Sc9m8uvTIuGrDtbg3uJmNm_33iOGPnydtj_lSd2JJrQ48eCDntXk4KCAD42KdZIeYAMRbvd9XtXM9ufhYh0SqJIXKSgjpC-5vpatJhOr4XZV27zfz5et9tJPNz8hv_hlKnDxDXUJ4nbpCZFZLXoExQqZvUeovx_n9spbH98mBSWfZQ98", "provider"=>"facebook"}
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (31.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+Completed 500 Internal Server Error in 101ms
+
+NoMethodError (undefined method `name=' for #<User:0xb6c287e0>):
+  app/models/user.rb:36:in `apply_facebook'
+  app/models/user.rb:21:in `apply_omniauth'
+  app/controllers/authentication_controller.rb:34:in `create'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.8ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:09:10 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBEwQHWk8_OIhxg4b4-B5OHi7Dum5iGsKj0KBSjqqvSw54PA5gPRTjL3iqPKPBsjxhnBz2g78_8dCBYxvcuhbblHgLRO9yNzgNbi58_poIdUkb6G77l2XnMtC9Dfc1Fx3uI7IOjfpIw5vQ-4Yt10nIT1KiM5BhtH6y70h2GcKqEedclX5VZPVXSTSQcZLrmCZw" for 127.0.0.1 at Thu Feb 09 09:09:11 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBEwQHWk8_OIhxg4b4-B5OHi7Dum5iGsKj0KBSjqqvSw54PA5gPRTjL3iqPKPBsjxhnBz2g78_8dCBYxvcuhbblHgLRO9yNzgNbi58_poIdUkb6G77l2XnMtC9Dfc1Fx3uI7IOjfpIw5vQ-4Yt10nIT1KiM5BhtH6y70h2GcKqEedclX5VZPVXSTSQcZLrmCZw", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+Completed 500 Internal Server Error in 52ms
+
+ActiveRecord::UnknownAttributeError (unknown attribute: token):
+  app/models/user.rb:24:in `apply_omniauth'
+  app/controllers/authentication_controller.rb:34:in `create'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.4ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.5ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateClients (20120208222907)
+Migrating to DeviseCreateUsers (20120208223256)
+Migrating to AddClientToUsers (20120209142803)
+Migrating to CreateAuthentications (20120209143157)
+Migrating to AddTokenToAuthentications (20120209152029)
+  [1m[35mSQL (560.8ms)[0m  ALTER TABLE `authentications` ADD `token` varchar(255)
+  [1m[36mSQL (41.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120209152029')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `authentications`
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `clients`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `clients`
+  [1m[36mSQL (0.7ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:21:01 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBFWfhrp7GzcWB_TrcbbN_ZU3q5QO9v0l0kmxr9exy17KA0xJivIpibO_a4DAbOAi9hBMKTSD2ngqqyAp9ZY3H5aM1Bbr3JajWzRkmKJhL-7EgGbwVUOVdVKDiEPkNiLjOXBRZwX8gySANQ5YpYtWvz6gcEMG6_JGj_HoeqtpJlL6sGO-E4EF11S8exH1PfwM0" for 127.0.0.1 at Thu Feb 09 09:21:02 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBFWfhrp7GzcWB_TrcbbN_ZU3q5QO9v0l0kmxr9exy17KA0xJivIpibO_a4DAbOAi9hBMKTSD2ngqqyAp9ZY3H5aM1Bbr3JajWzRkmKJhL-7EgGbwVUOVdVKDiEPkNiLjOXBRZwX8gySANQ5YpYtWvz6gcEMG6_JGj_HoeqtpJlL6sGO-E4EF11S8exH1PfwM0", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 59ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 09:21:03 -0600 2012
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (3.5ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/registrations/new.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 63ms (Views: 48.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 09:21:15 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:22:10 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBtFyT_f2HeQBzZtdVFuW3MzKMLkbLupHvw2uRBxbDe7L51yXwGoge0SDNXuEsW69vIc_phEvclgsoQB92HhD-hWaPu-KwzXYCSMZYRv1Hc3IiZ6zL8P8yBOv3rhEEqjShrbR0VPa66D6ViO5W0bOyTEmlNDJRzHgeDsJzXJpdFzhiZkxXf9Pa-OODeCFiiwSE" for 127.0.0.1 at Thu Feb 09 09:22:14 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBtFyT_f2HeQBzZtdVFuW3MzKMLkbLupHvw2uRBxbDe7L51yXwGoge0SDNXuEsW69vIc_phEvclgsoQB92HhD-hWaPu-KwzXYCSMZYRv1Hc3IiZ6zL8P8yBOv3rhEEqjShrbR0VPa66D6ViO5W0bOyTEmlNDJRzHgeDsJzXJpdFzhiZkxXf9Pa-OODeCFiiwSE", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 60ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 09:22:16 -0600 2012
+  Processing by Devise::RegistrationsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (1.9ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/registrations/new.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 50ms (Views: 31.9ms | ActiveRecord: 0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 09:28:34 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+Redirected to http://campusapts.modernmsg.com:3000/
+Completed 302 Found in 2ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 09:28:34 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.5ms)
+Rendered home/index.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:28:49 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQAVWe4NSsAOT3uAk2tNalcD5OmpyS3m5_rJQ_AvsR2koToHsBQ1kv8jyCnBYSn9NMOniLpSEvKo5mbBslzqeDcYXVswXm44snhBkoWzxC4jNmVs0xB4O7Bvoo6kTl0QgoNBxXSaH4l-aZcOAd07fY8fmIBak0IVxRCEaWZJVG5HIxkq7FugopI9j86t9BOaddw" for 127.0.0.1 at Thu Feb 09 09:28:52 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQAVWe4NSsAOT3uAk2tNalcD5OmpyS3m5_rJQ_AvsR2koToHsBQ1kv8jyCnBYSn9NMOniLpSEvKo5mbBslzqeDcYXVswXm44snhBkoWzxC4jNmVs0xB4O7Bvoo6kTl0QgoNBxXSaH4l-aZcOAd07fY8fmIBak0IVxRCEaWZJVG5HIxkq7FugopI9j86t9BOaddw", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 109ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 09:28:53 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 48ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mAuthentication Load (0.8ms)[0m  SELECT `authentications`.* FROM `authentications`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 09:57:55 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDK9Y5sgibm8z9k3Y1xJkQxao5W_HrgotlceAR5OOB4hNRyxgIPnQIEOJdT0qxeGLjXLkNWkLyZsrMKaeehD-aNN8OYDGsmgvKHtpJ07dc2gVTwKFswnoS_8OJH0Npcayr803u_DGw6tItjgK70NEHFXEjcpmZb5kU1yOpsgBAxMBiUbIy7WlWoRJLFL5OQ2hw" for 127.0.0.1 at Thu Feb 09 09:57:58 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDK9Y5sgibm8z9k3Y1xJkQxao5W_HrgotlceAR5OOB4hNRyxgIPnQIEOJdT0qxeGLjXLkNWkLyZsrMKaeehD-aNN8OYDGsmgvKHtpJ07dc2gVTwKFswnoS_8OJH0Npcayr803u_DGw6tItjgK70NEHFXEjcpmZb5kU1yOpsgBAxMBiUbIy7WlWoRJLFL5OQ2hw", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 58ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 09:57:59 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 48ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:02:13 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBRjwa0ZLYSiYs3tXCCgZ4Oj_1TE3itQ_n_SvAMPgHDlFbQ6t0MFauZOqkmdVA1U4ySuGFRm71wrt-8kkK47pwCVK3tTYf0jqVrp4Ent2fpLkhQagkC36IdnPICF6S_Luh834mbTwm2-CHGvlf9-AQxuQXpy5xpyYmRRHANBGl9bywlaojb_lZcS82cLBOTWrg" for 127.0.0.1 at Thu Feb 09 10:02:14 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBRjwa0ZLYSiYs3tXCCgZ4Oj_1TE3itQ_n_SvAMPgHDlFbQ6t0MFauZOqkmdVA1U4ySuGFRm71wrt-8kkK47pwCVK3tTYf0jqVrp4Ent2fpLkhQagkC36IdnPICF6S_Luh834mbTwm2-CHGvlf9-AQxuQXpy5xpyYmRRHANBGl9bywlaojb_lZcS82cLBOTWrg", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 59ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:02:16 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 49ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:10:47 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBaK_x0-3GqNf_ui6RpziRb9al70LaVBewf8eyZYYG_zQnPrKASksv9cL76jfcQeBOPw5kk0abBYT36A52hS4Atm30XxuCy00ryFxQeEE9Fa6iLpwxVaS1ZRmMUH5hMCnaiUokhjp6kBf7XZ-JKUdxB7OKzwl5_N39UiHGohLC7YC5JmHkVuJzhWuc-wVlLSEQ" for 127.0.0.1 at Thu Feb 09 10:10:48 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBaK_x0-3GqNf_ui6RpziRb9al70LaVBewf8eyZYYG_zQnPrKASksv9cL76jfcQeBOPw5kk0abBYT36A52hS4Atm30XxuCy00ryFxQeEE9Fa6iLpwxVaS1ZRmMUH5hMCnaiUokhjp6kBf7XZ-JKUdxB7OKzwl5_N39UiHGohLC7YC5JmHkVuJzhWuc-wVlLSEQ", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 59ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:10:50 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 46ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:17:13 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDcVH6_HaK6X95QOxMEELzHBFe-dfOfJSYU0OKTXF-suyEmSvYUeta1vkBHRBe9fD8zKme4KRzvUuR_KQOFS-cdrw3ngWf0fP9Ty5K0VUWeqJ_88CX7QX2L95H08Qn78aBLb1v_LYKOrYA5lPPgubtx-CJ4-suRGtnXozyZIPAYOm8e0pRb5rzZOiGnMBj_98o" for 127.0.0.1 at Thu Feb 09 10:17:15 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDcVH6_HaK6X95QOxMEELzHBFe-dfOfJSYU0OKTXF-suyEmSvYUeta1vkBHRBe9fD8zKme4KRzvUuR_KQOFS-cdrw3ngWf0fP9Ty5K0VUWeqJ_88CX7QX2L95H08Qn78aBLb1v_LYKOrYA5lPPgubtx-CJ4-suRGtnXozyZIPAYOm8e0pRb5rzZOiGnMBj_98o", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 58ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:17:16 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 48ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:21:21 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDbtNrqThU9Q4aynr4dogmfufSLHsizqfTUaeoKXN5BGfoXpsWS-omnnFXYcl7FmxI3lH4lQJYJeF8cYnuVHhbH4gmApxzOpTBn3Wr87NJUzw5R336hYo7zA5Q-rN09_AfGT9vMXoFIbNASdLk3ZlgB6kJhszfSgVsWgVOjpC3IkyJJ8-0Suzh5-YYhHznKL-A" for 127.0.0.1 at Thu Feb 09 10:21:24 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDbtNrqThU9Q4aynr4dogmfufSLHsizqfTUaeoKXN5BGfoXpsWS-omnnFXYcl7FmxI3lH4lQJYJeF8cYnuVHhbH4gmApxzOpTBn3Wr87NJUzw5R336hYo7zA5Q-rN09_AfGT9vMXoFIbNASdLk3ZlgB6kJhszfSgVsWgVOjpC3IkyJJ8-0Suzh5-YYhHznKL-A", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+The value of these have been reached
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 61ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:21:27 -0600 2012
+  Processing by RegistrationsController#new as HTML
+The value of these have been reached
+Completed 500 Internal Server Error in 49ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:22:39 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDAZusrZQSywFipbDotoPLu2pkE8hvR_Z-_Shy0wd0ike8DtFyY9WII9mrnmsGLmZd_X3sR0PW-XciCfKjn8_PFhFBM5pCRkAyZ0oSyXmsiLuaBANg9V6LZg-tUTRgimxSCI7o74XhsY04fOd7uV1YLlLwcGiPOLTTyF017C0ePTawcgMfvKBdiNb_xkYgyvPI" for 127.0.0.1 at Thu Feb 09 10:22:40 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDAZusrZQSywFipbDotoPLu2pkE8hvR_Z-_Shy0wd0ike8DtFyY9WII9mrnmsGLmZd_X3sR0PW-XciCfKjn8_PFhFBM5pCRkAyZ0oSyXmsiLuaBANg9V6LZg-tUTRgimxSCI7o74XhsY04fOd7uV1YLlLwcGiPOLTTyF017C0ePTawcgMfvKBdiNb_xkYgyvPI", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+I have reach the new user
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 60ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:22:41 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 46ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:25:10 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQAQqVkhPFxU0CWXwKzgBewIUU5iloePsMy7V2RebGp6zdOTvbX8Am_9EenWdh2KpNs61tRa_aFSp-PSRRYOgG873Q5HzZESVglRg5sP9jqT6cIWql2ZX6AwimmhQ6pdCKNoXoilmT4c-KmIpCNi9sc0kEKu7Cn4mgimKK4ibTC4-viZNL4v9DLGE4zSEfdfGN0" for 127.0.0.1 at Thu Feb 09 10:25:11 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQAQqVkhPFxU0CWXwKzgBewIUU5iloePsMy7V2RebGp6zdOTvbX8Am_9EenWdh2KpNs61tRa_aFSp-PSRRYOgG873Q5HzZESVglRg5sP9jqT6cIWql2ZX6AwimmhQ6pdCKNoXoilmT4c-KmIpCNi9sc0kEKu7Cn4mgimKK4ibTC4-viZNL4v9DLGE4zSEfdfGN0", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 60ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:25:15 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 47ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:27:45 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDJ7tGtgHWn4E6395CJVYhhnKOwr1gfbOFWuvoxrd7sKxCSTRqwnWKTLtq48Sv1Xj_70TzZWK0yxDjB0nAxL6qdJQORAwFnhbTu7n-NDSIRnvyoWTO166YMddUYB2A-oczMiyc4eDIkpetumIzVluMEuyiogO-Nx-XTkavD7Jgdq7Z37ioXs880RfH1D3zrGZA" for 127.0.0.1 at Thu Feb 09 10:27:46 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDJ7tGtgHWn4E6395CJVYhhnKOwr1gfbOFWuvoxrd7sKxCSTRqwnWKTLtq48Sv1Xj_70TzZWK0yxDjB0nAxL6qdJQORAwFnhbTu7n-NDSIRnvyoWTO166YMddUYB2A-oczMiyc4eDIkpetumIzVluMEuyiogO-Nx-XTkavD7Jgdq7Z37ioXs880RfH1D3zrGZA", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+Here is the token AAAE3hAyMYokBAP31B9b609ygiZAHMB3FXJ1QiW1G06QGwAcavF77O1wXVP6hI3KemFFb9RPkdl2RBCtzqRm3TSURmvBkZASM8y3x9iYAZDZD
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 59ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:27:47 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Here is the token AAAE3hAyMYokBAP31B9b609ygiZAHMB3FXJ1QiW1G06QGwAcavF77O1wXVP6hI3KemFFb9RPkdl2RBCtzqRm3TSURmvBkZASM8y3x9iYAZDZD
+Completed 500 Internal Server Error in 49ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rhtml, :rxml, :builder, :erb, :rjs]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:28:39 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBjdrm5fOGS8wRM4jK0OKhBffWjG_gEnhCzmeOtojek-DRUESbL7svkHS9oCuUCj2W0puRmySYrACLOxPBDcAMGsFnwrIcgGakN6ABorBmC8Y48qDq2TWK3nM9LFxY8hxgg0hSiKcQAFZl6LO2Jqzyo8STDwM4z9l97D0KQAOzLww0rfYxVK0LaJzVgcRdp_10" for 127.0.0.1 at Thu Feb 09 10:28:39 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBjdrm5fOGS8wRM4jK0OKhBffWjG_gEnhCzmeOtojek-DRUESbL7svkHS9oCuUCj2W0puRmySYrACLOxPBDcAMGsFnwrIcgGakN6ABorBmC8Y48qDq2TWK3nM9LFxY8hxgg0hSiKcQAFZl6LO2Jqzyo8STDwM4z9l97D0KQAOzLww0rfYxVK0LaJzVgcRdp_10", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+Completed 500 Internal Server Error in 37ms
+
+NoMethodError (undefined method `authentication' for #<User:0xb6dbb92c>):
+  app/models/user.rb:25:in `apply_omniauth'
+  app/controllers/authentication_controller.rb:34:in `create'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.9ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:32:07 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDe29PqP1s8QVRbAn2gzUtEFCOXMTqqoRjWaSuTuApugBU71PPDrBR-ZXtdetrxa3l5ZwxfXJoZ38HmsMWU8Psvusfgz4W4y_dWxTvcQvP1v6llqBtTmIU1yu3EOiODw41CTUc0MmWdw9KJ4BfEpNoUDEyCaus6Mij0OF7fmu_GXZq-1RzEt4_mhW-GOPJjiw4" for 127.0.0.1 at Thu Feb 09 10:32:08 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDe29PqP1s8QVRbAn2gzUtEFCOXMTqqoRjWaSuTuApugBU71PPDrBR-ZXtdetrxa3l5ZwxfXJoZ38HmsMWU8Psvusfgz4W4y_dWxTvcQvP1v6llqBtTmIU1yu3EOiODw41CTUc0MmWdw9KJ4BfEpNoUDEyCaus6Mij0OF7fmu_GXZq-1RzEt4_mhW-GOPJjiw4", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  ROLLBACK
+Redirected to http://campusapts.modernmsg.com:3000/users/sign_up
+Completed 302 Found in 68ms
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at Thu Feb 09 10:32:09 -0600 2012
+  Processing by RegistrationsController#new as HTML
+Im ABOUT TO GO inside build resource of registrations controller
+Im INSIDE  build resource of registrations controller
+Completed 500 Internal Server Error in 48ms
+
+ActionView::MissingTemplate (Missing template registrations/new with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rhtml, :rxml, :builder, :erb, :rjs]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:37:37 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQA8Ys8YAx0aM2aqMU9RSD0q-2J42oIYmYpum5llFmKCkvDxSVA2SsuHfFnHlB9YxusXtCWU2gIHnwDEhM_ok4_cb10BfBeQo7toiMhn2util8w4Fsy1o21c1AHr-n-VebFGboPZHXwYGGN9ImbvENg1cU_6T9UuBFDUmJnv_h0QF-_8JkZ6omRpA8GSUGieurM" for 127.0.0.1 at Thu Feb 09 10:37:38 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQA8Ys8YAx0aM2aqMU9RSD0q-2J42oIYmYpum5llFmKCkvDxSVA2SsuHfFnHlB9YxusXtCWU2gIHnwDEhM_ok4_cb10BfBeQo7toiMhn2util8w4Fsy1o21c1AHr-n-VebFGboPZHXwYGGN9ImbvENg1cU_6T9UuBFDUmJnv_h0QF-_8JkZ6omRpA8GSUGieurM", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  describe `users`
+  [1m[36mAREL (0.6ms)[0m  [1mINSERT INTO `users` (`client_id`, `created_at`, `sign_in_count`, `current_sign_in_at`, `updated_at`, `last_sign_in_at`, `email`, `reset_password_sent_at`, `encrypted_password`, `current_sign_in_ip`, `last_sign_in_ip`, `remember_created_at`, `reset_password_token`) VALUES (NULL, '2012-02-09 16:37:40', 0, NULL, '2012-02-09 16:37:40', NULL, '', NULL, '', NULL, NULL, NULL, NULL)[0m
+  [1m[35mSQL (3.1ms)[0m  describe `authentications`
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO `authentications` (`user_id`, `updated_at`, `provider`, `client_id`, `created_at`, `uid`, `token`) VALUES (2, '2012-02-09 16:37:40', 'facebook', NULL, '2012-02-09 16:37:40', '100000630818205', 'AAAE3hAyMYokBAP31B9b609ygiZAHMB3FXJ1QiW1G06QGwAcavF77O1wXVP6hI3KemFFb9RPkdl2RBCtzqRm3TSURmvBkZASM8y3x9iYAZDZD')[0m
+  [1m[35mSQL (59.9ms)[0m  COMMIT
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.6ms)[0m  UPDATE `users` SET `sign_in_count` = 1, `current_sign_in_at` = '2012-02-09 16:37:40', `updated_at` = '2012-02-09 16:37:40', `last_sign_in_at` = '2012-02-09 16:37:40', `current_sign_in_ip` = '127.0.0.1', `last_sign_in_ip` = '127.0.0.1' WHERE `users`.`id` = 2
+  [1m[36mSQL (36.8ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 205ms
+
+NameError (undefined local variable or method `home_index' for #<AuthenticationController:0xb7017720>):
+  app/controllers/authentication_controller.rb:39:in `create'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.3ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 10:39:53 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBoR7zes7OOiH4FFoFh__I7lkhYrcumni1-_OZCGGqhGd8JWnjWFpds6PVhGBiFt7sy0x_rd3hxDb7auN3kIJQiRurCsNhs5H7XYVZycv7o87aTRprHzp0E34Dzj-aNPjS6_E8jCc_d67zjwDbdBQ-GZjIWPjavxgYFaCYa2-TovN_ywiu3YfgG_tFS5ReCPWM" for 127.0.0.1 at Thu Feb 09 10:39:54 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBoR7zes7OOiH4FFoFh__I7lkhYrcumni1-_OZCGGqhGd8JWnjWFpds6PVhGBiFt7sy0x_rd3hxDb7auN3kIJQiRurCsNhs5H7XYVZycv7o87aTRprHzp0E34Dzj-aNPjS6_E8jCc_d67zjwDbdBQ-GZjIWPjavxgYFaCYa2-TovN_ywiu3YfgG_tFS5ReCPWM", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `sign_in_count` = 2, `current_sign_in_at` = '2012-02-09 16:39:55', `updated_at` = '2012-02-09 16:39:55' WHERE `users`.`id` = 2[0m
+  [1m[35mSQL (88.4ms)[0m  COMMIT
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 161ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 10:39:55 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 90.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:11:06 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQAzUsV_vf6VWqqUUolXZci823RbI8o1tYSZWZKPwU5cUEjeX9rdMPWIVEO2MuLW6u7fkFw4QO1H2YO0uHxDarSGD9HlhB7mMoPW0h5hMfrqDP63H_i1y3pZLH8n8Q8U1dfCpWG1wWLRyQjFe0n-JX-VywbTH1px_bvHF4FRhTakKzHg7jY3vTmaf73cbg4H0-8" for 127.0.0.1 at Thu Feb 09 11:11:07 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQAzUsV_vf6VWqqUUolXZci823RbI8o1tYSZWZKPwU5cUEjeX9rdMPWIVEO2MuLW6u7fkFw4QO1H2YO0uHxDarSGD9HlhB7mMoPW0h5hMfrqDP63H_i1y3pZLH8n8Q8U1dfCpWG1wWLRyQjFe0n-JX-VywbTH1px_bvHF4FRhTakKzHg7jY3vTmaf73cbg4H0-8", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 43ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:11:08 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:11:38 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  COMMIT
+Redirected to http://campusapts.modernmsg.com:3000/
+Completed 302 Found in 62ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:11:38 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:12:35 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.4ms)
+Rendered home/index.html.erb within layouts/application (79.1ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:12:53 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:14:03 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQCStOT499XnwWqH2NoPS8XshCQOAs83A_DtTksfjgvCTKG3V4mRdTQON41rHlFMtgocsV4iRMCLzk9ssxy6Z52ZaGG2Fl5qJiPnB_lmTqRNfhxk2TwuWTBT21idxqCQXJ9czA1a4PnkhqYfe8vdZVkiOY4lsqnkTGfw_SjqFSgI6Get74Nn_FrzSk1-Hxxs7nc" for 127.0.0.1 at Thu Feb 09 11:14:04 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQCStOT499XnwWqH2NoPS8XshCQOAs83A_DtTksfjgvCTKG3V4mRdTQON41rHlFMtgocsV4iRMCLzk9ssxy6Z52ZaGG2Fl5qJiPnB_lmTqRNfhxk2TwuWTBT21idxqCQXJ9czA1a4PnkhqYfe8vdZVkiOY4lsqnkTGfw_SjqFSgI6Get74Nn_FrzSk1-Hxxs7nc", "provider"=>"facebook"}
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2012-02-09 16:39:55', `updated_at` = '2012-02-09 17:14:05', `current_sign_in_at` = '2012-02-09 17:14:05', `sign_in_count` = 3 WHERE `users`.`id` = 2
+  [1m[36mSQL (77.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 124ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:14:05 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 78.2ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:15:01 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://campusapts.modernmsg.com:3000/
+Completed 302 Found in 29ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:15:01 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:15:06 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQAVHWZM5Jme3Rtn0SizaP2wtiY9WgRsAFnZIQaMO4o7ymQiLhO30-dXE0_ghddueHA7PyCahdX_SxXkw3Ecuhi7GIEDZyduiLaxd5a6kTJEcN7HykZcqFGzwIxguhIt--al3mlj8xrjNyGdxlNzMJH9Wq9FDA1JdgPCCEsLq8hSso6mVs8XBhktcQUgmkal2MQ" for 127.0.0.1 at Thu Feb 09 11:15:06 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQAVHWZM5Jme3Rtn0SizaP2wtiY9WgRsAFnZIQaMO4o7ymQiLhO30-dXE0_ghddueHA7PyCahdX_SxXkw3Ecuhi7GIEDZyduiLaxd5a6kTJEcN7HykZcqFGzwIxguhIt--al3mlj8xrjNyGdxlNzMJH9Wq9FDA1JdgPCCEsLq8hSso6mVs8XBhktcQUgmkal2MQ", "provider"=>"facebook"}
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `sign_in_count` = 4, `current_sign_in_at` = '2012-02-09 17:15:07', `last_sign_in_at` = '2012-02-09 17:14:05', `updated_at` = '2012-02-09 17:15:07' WHERE `users`.`id` = 2[0m
+  [1m[35mSQL (63.9ms)[0m  COMMIT
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 174ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:15:07 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 64.7ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:17:02 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+Redirected to http://campusapts.modernmsg.com:3000/
+Completed 302 Found in 95ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:17:02 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.4ms)
+Rendered home/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:27:20 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQAGX4--imu5Z4BIvb7GGCCUGSB1sIKz0CeBIcjvGwnU6_nqEmXvkb_32fvBDm9AUuXJkGmU8yEbTAlGv5mg_dfoLfRjdX21LBsJWKss_j9HBaz1_MZRtTZZcHzxF8GgO_gEyXtZzzAUjl76MhiJxUCRZnpbQDInaUtvnTdSy-U6GOqxoXNtDTNIvWjXignXNYA" for 127.0.0.1 at Thu Feb 09 11:27:22 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQAGX4--imu5Z4BIvb7GGCCUGSB1sIKz0CeBIcjvGwnU6_nqEmXvkb_32fvBDm9AUuXJkGmU8yEbTAlGv5mg_dfoLfRjdX21LBsJWKss_j9HBaz1_MZRtTZZcHzxF8GgO_gEyXtZzzAUjl76MhiJxUCRZnpbQDInaUtvnTdSy-U6GOqxoXNtDTNIvWjXignXNYA", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `users` SET `sign_in_count` = 5, `last_sign_in_at` = '2012-02-09 17:15:07', `updated_at` = '2012-02-09 17:27:23', `current_sign_in_at` = '2012-02-09 17:27:23' WHERE `users`.`id` = 2[0m
+  [1m[35mSQL (337.6ms)[0m  COMMIT
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 394ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:27:23 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 338.8ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:27:25 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Completed 500 Internal Server Error in 23ms
+
+NoMethodError (undefined method `redirect' for #<Devise::SessionsController:0xb6fdbb94>):
+  app/controllers/application_controller.rb:15:in `after_sign_out_path_for'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:28:45 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQDjg6F_BY162q35cLIKUZLAqzjw5VNzf2L1Oal-iwhXIoJl8EvgZuoY2VHePRZnWKRHSwfznYN20kDDODcCLR4TTgnzvRttYHZJBbfV-R_kTsyVDUJCaVwKEU33MCNZllDLKorhI5lXuksxoVtAnMkbQBaVX_SkSsBkLpwzVDuBq1e2rS0E8pGUS8VpC7kQF9I" for 127.0.0.1 at Thu Feb 09 11:28:46 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQDjg6F_BY162q35cLIKUZLAqzjw5VNzf2L1Oal-iwhXIoJl8EvgZuoY2VHePRZnWKRHSwfznYN20kDDODcCLR4TTgnzvRttYHZJBbfV-R_kTsyVDUJCaVwKEU33MCNZllDLKorhI5lXuksxoVtAnMkbQBaVX_SkSsBkLpwzVDuBq1e2rS0E8pGUS8VpC7kQF9I", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 44ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:28:47 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:28:50 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://www.modernmsg.com
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+Redirected to 
+Completed 500 Internal Server Error in 25ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.1ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:29:51 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQAOjqVn0ZCIIjKJev3HJ72gg17WI74tZgtuXo3hge6ZXoLu9bcPN-jY8CDoiFsX_tMXIi-XujVdkx-OVW7U3vnvwzmNoJzcyune3ffN9jlaKsO5m3P-AFzG9oltSsvwJ99KQZEdNVcpTuARBKJVV9_azn4UVx4LePFaNP_IgllGFbQrI3Lt1mdozYnI6Fz3z6I" for 127.0.0.1 at Thu Feb 09 11:29:52 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQAOjqVn0ZCIIjKJev3HJ72gg17WI74tZgtuXo3hge6ZXoLu9bcPN-jY8CDoiFsX_tMXIi-XujVdkx-OVW7U3vnvwzmNoJzcyune3ffN9jlaKsO5m3P-AFzG9oltSsvwJ99KQZEdNVcpTuARBKJVV9_azn4UVx4LePFaNP_IgllGFbQrI3Lt1mdozYnI6Fz3z6I", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 43ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:29:53 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (41.5ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:29:56 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Completed 500 Internal Server Error in 32ms
+
+ActionView::MissingTemplate (Missing template http://www.modernmsg.com with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:rjs, :rhtml, :builder, :rxml, :erb]} in view paths "/czb/campusrewards/app/views", "/home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views", "/czb/campusrewards", "/"):
+  app/controllers/application_controller.rb:15:in `after_sign_out_path_for'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:35:12 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQB3R6wlmJLCgrOfEZ_VDJm2S4ssiHQe2SbA1g3qYmmz6wXPGQ7f4Y3f6cwm5TG-qgTRKRfeXf_eCfTpA1VGVYvJW-J9OdlA1CQyO0DRyl9cl8K1XrVB8g2Z0_KoJo1JCMi2LQjtqIKO9AgHelcGhqP7Pg7kBTOLf47ElW_TGvVcXyrKgzDQOoYAATcJjaeGgLY" for 127.0.0.1 at Thu Feb 09 11:35:13 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQB3R6wlmJLCgrOfEZ_VDJm2S4ssiHQe2SbA1g3qYmmz6wXPGQ7f4Y3f6cwm5TG-qgTRKRfeXf_eCfTpA1VGVYvJW-J9OdlA1CQyO0DRyl9cl8K1XrVB8g2Z0_KoJo1JCMi2LQjtqIKO9AgHelcGhqP7Pg7kBTOLf47ElW_TGvVcXyrKgzDQOoYAATcJjaeGgLY", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.2ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 45ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:35:14 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (43.2ms)
+Completed 200 OK in 48ms (Views: 47.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:35:16 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Completed 500 Internal Server Error in 23ms
+
+NoMethodError (undefined method `redirect_url' for #<Devise::SessionsController:0xb6fdd714>):
+  app/controllers/application_controller.rb:15:in `after_sign_out_path_for'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.2ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:36:33 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBebcmKXUccnxPsnLPWrqvJ9lw3zgHo93xuWHIw20e8VtDztu3tf8ydPL0bi73h6HlpNx_Ks2ieyd9T8nw--UiCwj1t3PpI4tUEvcF6nTgwiPkCKVnUro6ccNezbpDWt0CUnetBc08PiQQEm3fToShbmKUvkrOSvyfZQJG2yia-emBEY_uILfq1zOAjrXtl6h8" for 127.0.0.1 at Thu Feb 09 11:36:33 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBebcmKXUccnxPsnLPWrqvJ9lw3zgHo93xuWHIw20e8VtDztu3tf8ydPL0bi73h6HlpNx_Ks2ieyd9T8nw--UiCwj1t3PpI4tUEvcF6nTgwiPkCKVnUro6ccNezbpDWt0CUnetBc08PiQQEm3fToShbmKUvkrOSvyfZQJG2yia-emBEY_uILfq1zOAjrXtl6h8", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.1ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 43ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:36:35 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Rendered home/index.html.erb within layouts/application (44.5ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:36:37 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+Redirected to http://www.modernmsg.com
+Completed 302 Found in 27ms
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 11:37:22 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQBiHj7YCUDkstOvFrHGng-pea_TLv3zI30o1N03tmPvv21B3A4wLAGGy41SNnuKqzo-CypoSkkU-CYZxzn8H5V_VJo0a6ey8VctgYS6yVNqUAbUfaY3UXApnEU1lgNTSsHlpX2L88sDCzOi-S2SmitIVqBtorwlg0_B4XcLIYvQl5wxmVrjFOsk9Dnd2qOlgX8" for 127.0.0.1 at Thu Feb 09 11:37:22 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQBiHj7YCUDkstOvFrHGng-pea_TLv3zI30o1N03tmPvv21B3A4wLAGGy41SNnuKqzo-CypoSkkU-CYZxzn8H5V_VJo0a6ey8VctgYS6yVNqUAbUfaY3UXApnEU1lgNTSsHlpX2L88sDCzOi-S2SmitIVqBtorwlg0_B4XcLIYvQl5wxmVrjFOsk9Dnd2qOlgX8", "provider"=>"facebook"}
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `users` SET `updated_at` = '2012-02-09 17:37:23', `sign_in_count` = 6, `last_sign_in_at` = '2012-02-09 17:27:23', `current_sign_in_at` = '2012-02-09 17:37:23' WHERE `users`.`id` = 2
+  [1m[36mSQL (100.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 142ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 11:37:23 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Rendered home/index.html.erb within layouts/application (95.0ms)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 101.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mAuthentication Load (0.3ms)[0m  [1mSELECT `authentications`.* FROM `authentications`[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users`
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT `users`.* FROM `users` LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mAREL (102.3ms)[0m  [1mDELETE FROM `users` WHERE `users`.`id` = 1[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users`
+
+
+Started GET "/user/sign_in" for 127.0.0.1 at Thu Feb 09 11:39:01 -0600 2012
+
+ActionController::RoutingError (No route matches "/user/sign_in"):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 11:39:11 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+Redirected to http://campusapts.modernmsg.com:3000/
+Completed 302 Found in 29ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:39:11 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1
+Rendered home/index.html.erb within layouts/application (121.0ms)
+Completed 200 OK in 133ms (Views: 132.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 11:39:17 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.modernmsg.com
+Completed 302 Found in 24ms
+
+
+Started GET "/" for 127.0.0.1 at Thu Feb 09 11:39:22 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.3ms)
+Rendered home/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 11:39:27 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (1.9ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 108ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mAuthentication Load (0.1ms)[0m  [1mSELECT `authentications`.* FROM `authentications`[0m
+  [1m[35mAuthentication Load (0.6ms)[0m  SELECT `authentications`.* FROM `authentications` LIMIT 1
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mAREL (70.8ms)[0m  [1mDELETE FROM `authentications`[0m
+  [1m[35mAREL (60.3ms)[0m  DELETE FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 12:45:09 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQB4bDZyqEU9VuJ6nt8QKgD_elQKAaAEDQ_Jm1ZVxPEe3M8DACZXWJVt4qRLrxLh3BWTRLTcgA5m789bfKlTjaICvSpRetnQ_Lds80D9m0fzGcxhOFiZpTeChFdhFVI7juzAgkwdXzVMNq8myVKFSH6bPrVC6Au46_422fTyfUIzCqj8-SEx0Vj9zZCFXT_s2-Y" for 127.0.0.1 at Thu Feb 09 12:45:17 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQB4bDZyqEU9VuJ6nt8QKgD_elQKAaAEDQ_Jm1ZVxPEe3M8DACZXWJVt4qRLrxLh3BWTRLTcgA5m789bfKlTjaICvSpRetnQ_Lds80D9m0fzGcxhOFiZpTeChFdhFVI7juzAgkwdXzVMNq8myVKFSH6bPrVC6Au46_422fTyfUIzCqj8-SEx0Vj9zZCFXT_s2-Y", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  describe `users`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `users` (`reset_password_sent_at`, `email`, `last_sign_in_ip`, `created_at`, `reset_password_token`, `client_id`, `sign_in_count`, `current_sign_in_ip`, `remember_created_at`, `last_sign_in_at`, `encrypted_password`, `updated_at`, `current_sign_in_at`) VALUES (NULL, '', NULL, '2012-02-09 18:45:18', NULL, NULL, 0, NULL, NULL, NULL, '', '2012-02-09 18:45:18', NULL)[0m
+  [1m[35mSQL (0.7ms)[0m  describe `authentications`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `authentications` (`provider`, `updated_at`, `created_at`, `token`, `uid`, `client_id`, `user_id`) VALUES ('facebook', '2012-02-09 18:45:18', '2012-02-09 18:45:18', 'AAAE3hAyMYokBAP31B9b609ygiZAHMB3FXJ1QiW1G06QGwAcavF77O1wXVP6hI3KemFFb9RPkdl2RBCtzqRm3TSURmvBkZASM8y3x9iYAZDZD', '100000630818205', NULL, 3)[0m
+  [1m[35mSQL (123.8ms)[0m  COMMIT
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.7ms)[0m  UPDATE `users` SET `last_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `current_sign_in_ip` = '127.0.0.1', `last_sign_in_at` = '2012-02-09 18:45:19', `updated_at` = '2012-02-09 18:45:19', `current_sign_in_at` = '2012-02-09 18:45:19' WHERE `users`.`id` = 3
+  [1m[36mSQL (59.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 252ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 12:45:19 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Rendered home/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 186.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mAuthentication Load (0.3ms)[0m  [1mSELECT `authentications`.* FROM `authentications`[0m
+  [1m[35mAuthentication Load (0.6ms)[0m  SELECT `authentications`.* FROM `authentications` LIMIT 1
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mAREL (116.4ms)[0m  [1mDELETE FROM `authentications`[0m
+  [1m[35mAREL (47.4ms)[0m  DELETE FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateClients (20120208222907)
+Migrating to DeviseCreateUsers (20120208223256)
+Migrating to AddClientToUsers (20120209142803)
+Migrating to CreateAuthentications (20120209143157)
+Migrating to AddTokenToAuthentications (20120209152029)
+Migrating to CreateProperties (20120209193613)
+  [1m[35mSQL (220.6ms)[0m  CREATE TABLE `properties` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `fburl` varchar(255), `fbid` varchar(255), `url` varchar(255), `description` varchar(255), `client_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (42.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120209193613')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `authentications`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `authentications`
+  [1m[36mSQL (0.4ms)[0m  [1mdescribe `clients`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `clients`
+  [1m[36mSQL (0.6ms)[0m  [1mdescribe `properties`[0m
+  [1m[35mSQL (0.5ms)[0m  SHOW KEYS FROM `properties`
+  [1m[36mSQL (0.8ms)[0m  [1mdescribe `users`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `users`
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 13:59:03 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (2.0ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 53ms (Views: 34.0ms | ActiveRecord: 0.7ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 14:02:57 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (2.0ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 47ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 14:03:00 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (2.0ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 35ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 14:03:02 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (1.8ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 37ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 14:03:40 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (2.0ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 46ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 14:03:43 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/shared/_links.erb (1.7ms)
+Rendered /home/cbond/.rvm/gems/ruby-1.8.7-p302/gems/devise-1.5.3/app/views/devise/sessions/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 36ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Thu Feb 09 14:08:39 -0600 2012
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (1.9ms)
+Rendered devise/sessions/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 44ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at Thu Feb 09 14:08:43 -0600 2012
+
+
+Started GET "/auth/facebook/callback?code=AQChIWuzgN38RthrlquS92qGuRSCbYWeTZVmC9Op1uvY9EQ3ipR4sPkkELiYIykfGGkHeJXgU7nqAEecE9Xc-rQ5Ba-aXjkr25U7AfijE4JrhCNSAOAGIDy2AoiBNbUZYxV7wU6Hr9R04GLSzctfo3nB-cumOnhyPyzKU5Kpajn5u4SA9tHwGNdlY0EKxKsE6nc" for 127.0.0.1 at Thu Feb 09 14:08:45 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"code"=>"AQChIWuzgN38RthrlquS92qGuRSCbYWeTZVmC9Op1uvY9EQ3ipR4sPkkELiYIykfGGkHeJXgU7nqAEecE9Xc-rQ5Ba-aXjkr25U7AfijE4JrhCNSAOAGIDy2AoiBNbUZYxV7wU6Hr9R04GLSzctfo3nB-cumOnhyPyzKU5Kpajn5u4SA9tHwGNdlY0EKxKsE6nc", "provider"=>"facebook"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '100000630818205' AND `authentications`.`provider` = 'facebook' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  describe `users`
+  [1m[36mAREL (0.3ms)[0m  [1mINSERT INTO `users` (`reset_password_token`, `current_sign_in_ip`, `sign_in_count`, `last_sign_in_at`, `remember_created_at`, `client_id`, `updated_at`, `encrypted_password`, `reset_password_sent_at`, `current_sign_in_at`, `last_sign_in_ip`, `email`, `created_at`) VALUES (NULL, NULL, 0, NULL, NULL, NULL, '2012-02-09 20:08:46', '', NULL, NULL, NULL, '', '2012-02-09 20:08:46')[0m
+  [1m[35mSQL (0.7ms)[0m  describe `authentications`
+  [1m[36mAREL (0.2ms)[0m  [1mINSERT INTO `authentications` (`client_id`, `updated_at`, `user_id`, `created_at`, `token`, `provider`, `uid`) VALUES (NULL, '2012-02-09 20:08:46', 4, '2012-02-09 20:08:46', 'AAAE3hAyMYokBAP31B9b609ygiZAHMB3FXJ1QiW1G06QGwAcavF77O1wXVP6hI3KemFFb9RPkdl2RBCtzqRm3TSURmvBkZASM8y3x9iYAZDZD', 'facebook', '100000630818205')[0m
+  [1m[35mSQL (148.7ms)[0m  COMMIT
+  [1m[36mSQL (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mAREL (0.6ms)[0m  UPDATE `users` SET `current_sign_in_ip` = '127.0.0.1', `sign_in_count` = 1, `last_sign_in_at` = '2012-02-09 20:08:46', `updated_at` = '2012-02-09 20:08:46', `current_sign_in_at` = '2012-02-09 20:08:46', `last_sign_in_ip` = '127.0.0.1' WHERE `users`.`id` = 4
+  [1m[36mSQL (37.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://campusapts.modernmsg.com:3000/home/index
+Completed 302 Found in 242ms
+
+
+Started GET "/home/index" for 127.0.0.1 at Thu Feb 09 14:08:46 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+Rendered home/index.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 189.2ms)
+
+
+Started GET "/users/sign_out" for 127.0.0.1 at Thu Feb 09 14:08:48 -0600 2012
+  Processing by Devise::SessionsController#destroy as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.modernmsg.com
+Completed 302 Found in 25ms
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/campusrewards/config/environment.rb:5)
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients`[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.5ms)[0m  [1mdescribe `clients`[0m
+  [1m[35mAREL (0.2ms)[0m  INSERT INTO `clients` (`updated_at`, `host`, `description`, `created_at`, `name`) VALUES ('2012-02-09 20:11:14', 'modernmsg', 'Modern Message Series A', '2012-02-09 20:11:14', 'Modern Message')
+  [1m[36mSQL (148.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.7ms)[0m  SHOW TABLES
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mAREL (0.5ms)[0m  [1mINSERT INTO `clients` (`updated_at`, `host`, `description`, `created_at`, `name`) VALUES ('2012-02-09 20:12:10', 'campusapts', 'Campus Apartments', '2012-02-09 20:12:10', 'Campus Apartments')[0m
+  [1m[35mSQL (57.2ms)[0m  COMMIT
+  [1m[36mClient Load (1.5ms)[0m  [1mSELECT `clients`.* FROM `clients`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/buysometime/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Fri Feb 10 16:54:06 -0600 2012
+  Processing by HomeController#index as HTML
+Rendered home/_sidebar.html.erb (0.4ms)
+Rendered home/index.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 101ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Fri Feb 10 16:54:10 -0600 2012
+
+OAuth::Unauthorized (401 Unauthorized):
+  
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /czb/buysometime/config/environment.rb:5)
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at Fri Feb 10 16:57:24 -0600 2012
+
+
+Started GET "/auth/twitter/callback?oauth_token=VMjufyyAYXt2eENRrExNR7ymSZjDmsJRdw0ZtnZw&oauth_verifier=3Aa7E7SFMIiSfyzFnyLOgoFdY0ndx10t1X3gQgHeA" for 127.0.0.1 at Fri Feb 10 16:57:30 -0600 2012
+  Processing by AuthenticationController#create as HTML
+  Parameters: {"oauth_verifier"=>"3Aa7E7SFMIiSfyzFnyLOgoFdY0ndx10t1X3gQgHeA", "oauth_token"=>"VMjufyyAYXt2eENRrExNR7ymSZjDmsJRdw0ZtnZw", "provider"=>"twitter"}
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`uid` = '115757732' AND `authentications`.`provider` = 'twitter' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  describe `users`
+  [1m[36mAREL (87.6ms)[0m  [1mINSERT INTO `users` (`current_sign_in_at`, `encrypted_password`, `reset_password_token`, `sign_in_count`, `last_sign_in_ip`, `reset_password_sent_at`, `created_at`, `remember_created_at`, `current_sign_in_ip`, `email`, `client_id`, `updated_at`, `last_sign_in_at`) VALUES (NULL, '', NULL, 0, NULL, NULL, '2012-02-10 22:57:31', NULL, NULL, '', NULL, '2012-02-10 22:57:31', NULL)[0m
+Mysql2::Error: Duplicate entry '' for key 'index_users_on_email': INSERT INTO `users` (`current_sign_in_at`, `encrypted_password`, `reset_password_token`, `sign_in_count`, `last_sign_in_ip`, `reset_password_sent_at`, `created_at`, `remember_created_at`, `current_sign_in_ip`, `email`, `client_id`, `updated_at`, `last_sign_in_at`) VALUES (NULL, '', NULL, 0, NULL, NULL, '2012-02-10 22:57:31', NULL, NULL, '', NULL, '2012-02-10 22:57:31', NULL)
+  [1m[35mSQL (62.7ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 205ms
+
+ActiveRecord::RecordNotUnique (Mysql2::Error: Duplicate entry '' for key 'index_users_on_email': INSERT INTO `users` (`current_sign_in_at`, `encrypted_password`, `reset_password_token`, `sign_in_count`, `last_sign_in_ip`, `reset_password_sent_at`, `created_at`, `remember_created_at`, `current_sign_in_ip`, `email`, `client_id`, `updated_at`, `last_sign_in_at`) VALUES (NULL, '', NULL, 0, NULL, NULL, '2012-02-10 22:57:31', NULL, NULL, '', NULL, '2012-02-10 22:57:31', NULL)):
+  app/controllers/authentication_controller.rb:35:in `create'
+
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.0ms)
+Rendered /home/cbond/.rvm/rubies/ruby-1.8.7-p302/lib/ruby/gems/1.8/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
